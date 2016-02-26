@@ -1,5 +1,5 @@
 # awesome-theme
-Theme of awsome desktop
+Theme of awsome desktop, base on [https://github.com/mikar/awesome-themes](https://github.com/mikar/awesome-themes)
 
 
 ## 使用方法
