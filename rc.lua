@@ -92,7 +92,7 @@ end
 myawesomemenu = {
    { "帮助", terminal .. " -e man awesome" },
    { "配置", editor_cmd .. " " .. awesome.conffile },
-   { "重新加载", awesome.restart },
+   { "重启", awesome.restart },
    { "注销", awesome.quit }
 }
 
@@ -104,18 +104,25 @@ mybrowserapps = {
    { "Firefox", "firefox" },
    { "Chrome", "chromium" }
 }
+myreaderapps = {
+   { "PDF阅读器", "epdfview"},
+   { "FBReader", "FBReader"}
+}
 mytoolsapps = {
-   { "终端", terminal },
+   { "默认终端", terminal },
+   { "Lilyterm", "lilyterm" },
    { "字典", "goldendict" },
+   { "电子书编辑器", "sigil"},
    { "负载", "gkrellm" }
 }
 myplayapps = {
-   { "Mplayer", "smlayer" },
+   { "Mplayer", "smplayer" },
    { "Xmms", "xmms2" }
 }
 
-mymainmenu = awful.menu({ items = { { "系统", myawesomemenu, beautiful.awesome_icon },
+mymainmenu = awful.menu({ items = { { "开始", myawesomemenu, beautiful.awesome_icon },
                                     { "浏览器", mybrowserapps },
+                                    { "阅读器", myreaderapps },
                                     { "开发", mydevelopapps },
                                     { "工具", mytoolsapps },
                                     { "娱乐", myplayapps }
