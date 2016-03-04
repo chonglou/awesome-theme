@@ -114,7 +114,6 @@ mytoolsapps = {
    { "默认终端", terminal },
    { "Lilyterm", "lilyterm" },
    { "字典", "goldendict" },
-   { "电子书编辑器", "sigil"},
    { "负载", "gkrellm" }
 }
 myplayapps = {
