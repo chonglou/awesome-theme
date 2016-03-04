@@ -1,0 +1,53 @@
+Xft.dpi:120
+
+URxvt.perl-ext-common: default,tabbed
+URxvt.geometry:93x30+150+100
+URxvt.background:black
+URxvt.foreground:white
+URxvt.secondaryScroll:True
+!URxvt.inheritPixmap:True
+URxvt.tintColor:grey
+URxvt.shading:500
+URxvt.preeditType:Root
+!URxvt.inputMethod:ibus
+URxvt.borderLess:False
+URxvt.title:My URxvt
+URxvt.font:xft:Terminus-12,xft:WenQuanYi Bitmap Song-12
+URxvt.boldFont:xft:Terminus-12:Bold,xft:WenQuanYi Bitmap Song-12:Bold
+!URxvt.scrollstyle:URxvt
+URxvt.scrollstyle:next
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.saveLines:10000
+!Black
+URxvt.color0:#000000
+URxvt.color8:#555753
+!Red
+URxvt.color1:#CC0000
+URxvt.color9:#EF2929
+!Green
+URxvt.color2:#4E9A06
+URxvt.color10:#8AE234
+!Yellow
+URxvt.color3:#C4A000
+URxvt.color11:#FCE94F
+!Blue
+URxvt.color4:#3465A4
+URxvt.color12:#729FCF
+!Magenta
+URxvt.color5:#75507B
+URxvt.color13:#AD7FA8
+!Cyan
+URxvt.color6:#6989A0
+URxvt.color14:#34E2E2
+!White
+URxvt.color7:#D3D7CF
+URxvt.color15:#EEEEEC
+
+
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Emacs.FontBackend: xft
+Emacs.geometry:120x35
+
