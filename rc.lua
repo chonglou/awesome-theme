@@ -104,7 +104,8 @@ mydevelopapps = {
 }
 mybrowserapps = {
    { "Firefox", "firefox" },
-   { "Chrome", "chromium" }
+   { "Chrome", "chromium" },
+   { "PCManX", "pcmanx" }
 }
 myreaderapps = {
    { "PDF阅读器", "epdfview"},
