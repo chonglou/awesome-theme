@@ -118,7 +118,8 @@ mytoolsapps = {
    { "负载", "gkrellm" }
 }
 myplayapps = {
-   { "Mplayer", "smplayer" },
+   { "MPlayer", "smplayer" },
+   { "Youtube", "smtube" },
    { "Xmms", "xmms2" }
 }
 
