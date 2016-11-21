@@ -102,9 +102,10 @@ mydevelopapps = {
    { "Atom", "atom"},
    { "Emacs", "emacs"}
 }
-mybrowserapps = {
+mynetapps = {
    { "Firefox", "firefox" },
-   { "Chrome", "chromium" }
+   { "Chrome", "chromium" },
+   { "Skype", "skype" }
 }
 myreaderapps = {
    { "PDF阅读器", "epdfview"},
@@ -113,6 +114,7 @@ myreaderapps = {
 mytoolsapps = {
    { "默认终端", terminal },
    { "Lilyterm", "lilyterm" },
+   { "记事本", "leafpad"},
    { "字典", "goldendict" },
    { "负载", "gkrellm" }
 }
@@ -122,7 +124,7 @@ myplayapps = {
 }
 
 mymainmenu = awful.menu({ items = { { "开始", myawesomemenu, beautiful.awesome_icon },
-                                    { "浏览器", mybrowserapps },
+                                    { "网络工具", mynetapps },
                                     { "阅读器", myreaderapps },
                                     { "开发", mydevelopapps },
                                     { "工具", mytoolsapps },
