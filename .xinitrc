@@ -17,7 +17,6 @@ exec xrdb $HOME/.Xresources &
 eval `dbus-launch --sh-syntax --exit-with-session`
 fcitx -d &
 xhost + localhost
-#sudo ntpdate 0.pool.ntp.org &
 
 exec awesome
 

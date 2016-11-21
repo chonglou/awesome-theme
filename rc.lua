@@ -105,7 +105,7 @@ mydevelopapps = {
 mynetapps = {
    { "Firefox", "firefox" },
    { "Chrome", "chromium" },
-   { "Skype", "skype" }
+   { "PCManX", "pcmanx" }
 }
 myreaderapps = {
    { "PDF阅读器", "epdfview"},
@@ -119,7 +119,8 @@ mytoolsapps = {
    { "负载", "gkrellm" }
 }
 myplayapps = {
-   { "Mplayer", "smplayer" },
+   { "MPlayer", "smplayer" },
+   { "Youtube", "smtube" },
    { "Xmms", "xmms2" }
 }
 
