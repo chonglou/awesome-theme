@@ -6,6 +6,7 @@ Theme of awsome desktop, base on [https://github.com/mikar/awesome-themes](https
 ```
 sudo pacman -S vicious dex rlwrap awsome
 git clone https://github.com/chonglou/awesome-theme.git ~/.config/awesome
+ln -s ~/.config/awesome/.xinitrc ~/
 ```
 
 ## 快捷键
